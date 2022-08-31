@@ -13,11 +13,6 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
-
 - task: AzureKeyVault@2
   inputs:
     azureSubscription: 'Pay-As-You-Go(6cff3a05-dfaf-45ce-ae38-3521a14c2cf7)'
